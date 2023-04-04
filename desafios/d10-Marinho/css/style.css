@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+/*Cabeçalho*/
+
+    @font-face{
+        font-family:'idroid';
+        src: url('../fonte/idroid.woff');
+        font-weight: bold;
+        font-style: normal;
+    }
+
+*{
+    margin: 0px;
+    padding: 0px;
+}    
+body{
+    font-family: 'idroid';
+    margin: 0px;
+    background-color: #84e1ad;
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    background-color: #278852;
+}
+
+h1{
+    text-indent: 30px;
+    font-family: 'idroid';
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+h2{
+    font-family: 'idroid';
+    color: white;
+    text-align: center;
+}
+
+#texto-top{
+    margin: auto auto;
+}
+
+
+
+
+/*Menu nav*/
+
+nav{
+    font-family: 'idroid';
+    margin-top: 60px;
+}
+
+nav >a{
+    margin-left: 30px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav >a:hover{
+    border-radius: 10px;
+    color:rgba(10, 10, 10, 0.521);
+    background-color: #FFFFFF;
+    transition-duration: 0.8s;
+}
+
+
+
+
+/* Corpo */
+
+main{
+    width: 50%;
+    height: 3800px;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 25%;
+    background-color: white;
+}
+
+p{
+    padding: 10px;
+    text-indent: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 2em;
+}
+
+aside{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h1#tema{
+    text-indent: 30pxu;
+    font-family: 'idroid';
+    font-size: 40px;
+    color:#278852;
+    text-align: left;
+}
+
+h2.temaUm{
+    font-size: 30px;
+    font-family: 'idroid';
+    color:#278852;
+    background-image:linear-gradient( to right, #84e1ad, #c4fadb, white); /* Utilização de degradê*/
+    background-attachment: scroll;
+    text-align: left;
+    margin-left: 20px;
+}
+
+#image1{
+    margin: 20px;
+    margin-left: 80px;
+}
+
+#image2{
+    margin: 20px;
+    margin-left: 80px;
+}
+
+#image3{
+    margin: 20px;
+    margin-left: 30%;
+}
+
+.vdeo{
+    width: 100%;
+    height: 460px;
+    background-color: #1a5c38;
+}
+
+#vdeo1{
+    margin: 30px;
+    margin-left: 45px;
+}
+
+.aprender{
+    width: 90%;
+    height: 520px;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: 5%;
+    background-color: #c5ebd6;
+}
+
+#estaco-texto{
+    padding: 0 10px 0 10px ;
+}
+
+h3{
+    color: #FFFFFF;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #278852;
+}
+
+ul{
+    margin: 0 0 10px 0;
+}
+
+#list1{
+    float: left;
+}
+
+#list2{
+    float: right;
+}
+
+.limpar{
+    clear: both;
+}
+
+.limparMargen{
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+
+
+
+
+/* Rodapé*/
+
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: #1a5c38;
+}
+
+#desenvolvido{
+    margin: 0%;
+    color: #FFFFFF;
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+/* Cabeçalho*/
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+}    
+.imagem{
+    margin-right: 50px;
+    float: right;
+}
+p{
+    font-size: 18px;
+}
+/* fim do cabeçalho */
+/* inicio Fomação*/
+dt{
+    margin-bottom: 10px;
+}
+dd{
+    margin-bottom: 10px;
+}
+/*Fim formação*/
+/*Copy*/
+h5{
+    text-align: center;
+}
+/* fim copy*/
+

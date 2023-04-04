@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: 'Work Sans',Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas 
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente  = 1em
+            */
+            /*
+            font-size: 1em;
+            font-weight: lighter;
+            font-style: italic ;
+            text-decoration: underline;
+            */
+            /* Peso da fonte = lighter, normal, bold, bolder */
+        }
+        h1{
+            /*
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            /* Shorthand font
+
+            -font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 3em Arial, Helvetica, sans-serif;
+        }
+        h2{
+            font: bold 2em Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae enim tempore adipisci qui impedit maiores atque libero, in et, nemo inventore voluptate numquam? Et autem aspernatur, quod nemo reiciendis libero?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi animi numquam unde inventore nulla maxime quos? Animi doloremque sit, quia maxime omnis molestias ea perspiciatis, ut minus in provident sunt?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eaque adipisci doloribus ratione eos soluta fugit fuga accusamus quia, facilis ex consequatur nam quibusdam iure accusantium laudantium! Maxime, necessitatibus fuga.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis ipsam, quo magnam est cupiditate necessitatibus qui perferendis facere ea animi tenetur corrupti, consequuntur porro voluptas sunt! Accusamus eveniet vero id.</p>
+</body>
+</html>
