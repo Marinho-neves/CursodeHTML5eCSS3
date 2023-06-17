@@ -27,6 +27,13 @@
             background-color: gray;
             color: white;
         }
+        tbody > tr:nth-child(odd) {
+            background-color: white; /* 2n-1 */
+            font-weight: bold;
+        }
+        tbody > tr:nth-child(even) { /* 2n */
+            background-color: lightgray;
+        }
         td.num{
             text-align: right;
         }
@@ -43,6 +50,8 @@
                 TR,TD,TH
             TFOOT
                 TR,TD,TH
+        EFEITO ZEBRADO
+            USO DE PSEUDO CLASSE -> nth-child(odd ou even)
     -->
     <h1>Uso de tabelas grandes</h1>
     <table>
