@@ -1,1 +1,49 @@
 @charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body, html{
+    background-color: rgb(212, 206, 206);
+}
+header{
+    background-color: gray;
+}
+header > h1{
+    padding: 10px;
+    text-align: center;
+}
+menu{
+    display: block;
+}
+menu > ul{
+    list-style-type: none;
+}
+menu > ul > li > a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(99, 98, 98);
+    color: white;
+    border-top: 2px solid rgb(143, 135, 135);
+}
+menu > ul > li > a:hover{
+    background-color: rgb(139, 139, 139);
+}
+main{
+    width: 90vh;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 30px;
+    border-radius: 10px;
+}
+article > h1{
+    padding-bottom: 20px;
+}
+article > p{
+    text-align: justify;
+    text-indent: 20px;
+}
