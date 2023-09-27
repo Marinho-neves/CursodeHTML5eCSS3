@@ -68,6 +68,11 @@ div#formulario > h1{
 .campo > label{
     display: none;
 }
+.campo > span{
+    color: white;
+    background-color: black;
+    font-size: 2em;
+}    
 div#formulario > p{
     font-size: 0.8em;
 }
